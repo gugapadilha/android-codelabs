@@ -10,12 +10,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        ratingBar.setOnRatingBarChangeListener { ratingBar, rating, fromUser -> rating
+        ratingBar.setOnRatingBarChangeListener { ratingBar, rating, fromUser ->
+            rating
             valorSelecionado.text = "" + rating
         }
 
+
         button.setOnClickListener {
-            Toast.makeText(applicationContext, "Valor selecionado = " + ratingBar.rating, Toast.LENGTH_LONG).show()
+            Toast.makeText(
+                applicationContext,
+                "Valor selecionado = " + ratingBar.rating,
+                Toast.LENGTH_LONG
+            ).show()
         }
     }
 }
