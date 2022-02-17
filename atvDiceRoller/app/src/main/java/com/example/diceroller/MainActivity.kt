@@ -2,6 +2,7 @@ package com.example.diceroller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
@@ -13,24 +14,25 @@ class MainActivity : AppCompatActivity() {
 
         rollButton.setOnClickListener {
             rollDice()
-            rollDice2()
         }
-    }
-
-    private fun rollDice2(){
-        val dice2 = Dice(6)
-        val diceRoll2 = dice2.roll()
-
-        val result2TextView =  textView2
-        result2TextView.text = diceRoll2.toString()
     }
 
     private fun rollDice() {
         val dice = Dice(6)
         val diceRoll = dice.roll()
+        val diceImage = imageView
 
-        val reusltTextView = textView
-        reusltTextView.text = diceRoll.toString()
+        val drawableResource = when(diceRoll){
+            1 -> R.drawable.dice_1
+            2 -> R.drawable.dice_2
+            3 -> R.drawable.dice_3
+            4 -> R.drawable.dice_4
+            5 -> R.drawable.dice_5
+            else -> R.drawable.dice_6
+        }
+        diceImage.setImageResource(drawableResource)
+        diceImage.contentDescription = diceRoll.toString()
+
     }
 
     class Dice(private val numSides: Int) {
