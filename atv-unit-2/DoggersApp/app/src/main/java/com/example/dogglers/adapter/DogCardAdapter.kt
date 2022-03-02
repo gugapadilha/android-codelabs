@@ -34,7 +34,7 @@ import com.example.dogglers.databinding.GridListItemBinding
 class DogCardAdapter(
     private val context: Context?,
     private val layout: Int
-): RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
+) : RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
 
     // TODO: Initialize the data using the List found in data/DataSource
     val dataset = DataSource.dogs
@@ -42,7 +42,7 @@ class DogCardAdapter(
     /**
      * Initialize view elements
      */
-    class DogCardViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
+    class DogCardViewHolder(view: View?) : RecyclerView.ViewHolder(view!!) {
         // TODO: Declare and initialize all of the list item UI components
 
         //next step: adding viewBinding instead of findViewById
@@ -63,19 +63,20 @@ class DogCardAdapter(
         // TODO: Null should not be passed into the view holder. This should be updated to reflect
         //  the inflated layout.
 
-        return when(layout){
+        return when (layout) {
             Layout.GRID -> {
                 val adapterLayout = LayoutInflater.from(parent.context)
                     .inflate(R.layout.grid_list_item, parent, false)
 
                 DogCardViewHolder(adapterLayout)
 
-            }else -> {
+            }
+            else -> {
 
                 val adapterLayout = LayoutInflater.from(parent.context)
                     .inflate(R.layout.vertical_horizontal_list_item, parent, false)
 
-            DogCardViewHolder(adapterLayout)
+                DogCardViewHolder(adapterLayout)
             }
         }
     }
@@ -90,7 +91,7 @@ class DogCardAdapter(
         holder.textName.text = item.name
 
         val resources = context?.resources
-        holder.textAge.text  = resources?.getString(R.string.dog_age, item.age)
+        holder.textAge.text = resources?.getString(R.string.dog_age, item.age)
 
         holder.textHobbies.text = resources?.getString(R.string.dog_hobbies, item.hobbies)
     }
