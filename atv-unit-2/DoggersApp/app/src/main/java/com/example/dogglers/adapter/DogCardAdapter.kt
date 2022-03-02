@@ -45,6 +45,7 @@ class DogCardAdapter(
     class DogCardViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
         // TODO: Declare and initialize all of the list item UI components
 
+        //next step: adding viewBinding instead of findViewById
         val imageView: ImageView = view!!.findViewById(R.id.image_view)
         val textName: TextView = view!!.findViewById(R.id.textName)
         val textAge: TextView = view!!.findViewById(R.id.textAge)
