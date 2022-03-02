@@ -44,6 +44,7 @@ class DogCardAdapter(
      */
     class DogCardViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
         // TODO: Declare and initialize all of the list item UI components
+
         val imageView: ImageView = view!!.findViewById(R.id.image_view)
         val textName: TextView = view!!.findViewById(R.id.textName)
         val textAge: TextView = view!!.findViewById(R.id.textAge)
@@ -78,7 +79,7 @@ class DogCardAdapter(
         }
     }
 
-    override fun getItemCount(): Int = dataset.size // TODO: return the size of the data set instead of 0
+    override fun getItemCount(): Int = dataset.size
 
     override fun onBindViewHolder(holder: DogCardViewHolder, position: Int) {
         // TODO: Get the data at the current position
@@ -89,7 +90,6 @@ class DogCardAdapter(
 
         val resources = context?.resources
         holder.textAge.text  = resources?.getString(R.string.dog_age, item.age)
-
 
         holder.textHobbies.text = resources?.getString(R.string.dog_hobbies, item.hobbies)
     }
