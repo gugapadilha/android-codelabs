@@ -46,7 +46,6 @@ class DogCardAdapter(
 
     class DogCardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         // TODO: Declare and initialize all of the list item UI components
-
         //next step: adding viewBinding
         val imageView = itemView.image_view
         val textName = itemView.textName

@@ -1,4 +1,4 @@
-#Wed Mar 02 16:04:12 BRT 2022
+#Thu Mar 03 10:47:25 BRT 2022
 base.1=C\:\\Users\\gusta\\Desktop\\android-learning\\atv-unit-2\\DoggersApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.1=classes.dex
 base.0=C\:\\Users\\gusta\\Desktop\\android-learning\\atv-unit-2\\DoggersApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
