@@ -92,8 +92,8 @@ class DogCardAdapter(
         holder.textName.text = item.name
 
         val resources = context?.resources
-        holder.textAge.text = resources?.getString(R.string.dog_age, item.age)
 
+        holder.textAge.text = resources?.getString(R.string.dog_age, item.age)
         holder.textHobbies.text = resources?.getString(R.string.dog_hobbies, item.hobbies)
     }
 }
