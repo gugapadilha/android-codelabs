@@ -26,6 +26,7 @@ import com.example.dogglers.R
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
 import com.example.dogglers.databinding.GridListItemBinding
+import kotlinx.android.synthetic.main.vertical_horizontal_list_item.view.*
 
 /**
  * Adapter to inflate the appropriate list item layout and populate the view with information
@@ -42,15 +43,14 @@ class DogCardAdapter(
     /**
      * Initialize view elements
      */
-    class DogCardViewHolder(view: View?) : RecyclerView.ViewHolder(view!!) {
+    class DogCardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         // TODO: Declare and initialize all of the list item UI components
 
         //next step: adding viewBinding instead of findViewById
-        val imageView: ImageView = view!!.findViewById(R.id.image_view)
-        val textName: TextView = view!!.findViewById(R.id.textName)
-        val textAge: TextView = view!!.findViewById(R.id.textAge)
-        val textHobbies: TextView = view!!.findViewById(R.id.textHobbie)
-
+        val imageView = itemView.image_view
+        val textName = itemView.textName
+        val textAge = itemView.textAge
+        val textHobbies = itemView.textHobbie
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {
