@@ -19,7 +19,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
@@ -36,6 +35,9 @@ class FlavorFragment : Fragment() {
     // when the view hierarchy is attached to the fragment.
     private var binding: FragmentFlavorBinding? = null
 
+    // Use the 'by activityViewModels()' Kotlin property delegate from the fragment-ktx artifact
+    private val sharedViewModel: OrderViewModel by activityViewModels()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -45,19 +47,24 @@ class FlavorFragment : Fragment() {
         return fragmentBinding.root
     }
 
-    private val sharedViewModel: OrderViewModel by activityViewModels()
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         binding?.apply {
-            viewModel = sharedViewModel
-            nextButton.setOnClickListener { goToNextScreen() }
-        }
+            // Specify the fragment as the lifecycle owner
+            lifecycleOwner = viewLifecycleOwner
 
+            // Assign the view model to a property in the binding class
+            viewModel = sharedViewModel
+
+            // Assign the fragment
+            flavorFragment = this@FlavorFragment
+        }
     }
 
-    /** Navigate to the next screen to choose pickup date (getting the id of nav_graph fragment)*/
+    /**
+     * Navigate to the next screen to choose pickup date.
+     */
     fun goToNextScreen() {
         findNavController().navigate(R.id.action_flavorFragment_to_pickupFragment)
     }
