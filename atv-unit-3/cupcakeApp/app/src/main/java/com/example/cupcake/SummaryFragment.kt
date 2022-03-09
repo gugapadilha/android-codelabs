@@ -21,7 +21,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import com.example.cupcake.databinding.FragmentSummaryBinding
+import com.example.cupcake.model.OrderViewModel
 
 /**
  * [SummaryFragment] contains a summary of the order details with a button to share the order
@@ -43,10 +45,14 @@ class SummaryFragment : Fragment() {
         return fragmentBinding.root
     }
 
+    private val sharedViewModel: OrderViewModel by activityViewModels()
+
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         binding?.apply {
+            viewModel = sharedViewModel
             sendButton.setOnClickListener { sendOrder() }
         }
     }
