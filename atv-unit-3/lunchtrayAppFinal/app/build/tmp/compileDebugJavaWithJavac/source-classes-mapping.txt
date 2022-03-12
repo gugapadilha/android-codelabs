@@ -1,0 +1,39 @@
+com/example/lunchtray/databinding/FragmentSideMenuBindingImpl.java
+ com.example.lunchtray.databinding.FragmentSideMenuBindingImpl
+com/example/lunchtray/databinding/FragmentStartOrderBinding.java
+ com.example.lunchtray.databinding.FragmentStartOrderBinding
+com/example/lunchtray/DataBindingTriggerClass.java
+ com.example.lunchtray.DataBindingTriggerClass
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/example/lunchtray/databinding/FragmentEntreeMenuBinding.java
+ com.example.lunchtray.databinding.FragmentEntreeMenuBinding
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/lunchtray/databinding/FragmentAccompanimentMenuBinding.java
+ com.example.lunchtray.databinding.FragmentAccompanimentMenuBinding
+com/example/lunchtray/databinding/FragmentSideMenuBinding.java
+ com.example.lunchtray.databinding.FragmentSideMenuBinding
+com/example/lunchtray/databinding/FragmentEntreeMenuBindingImpl.java
+ com.example.lunchtray.databinding.FragmentEntreeMenuBindingImpl
+com/example/lunchtray/databinding/FragmentCheckoutBinding.java
+ com.example.lunchtray.databinding.FragmentCheckoutBinding
+com/example/lunchtray/BR.java
+ com.example.lunchtray.BR
+com/example/lunchtray/databinding/ActivityMainBinding.java
+ com.example.lunchtray.databinding.ActivityMainBinding
+com/example/lunchtray/generated/callback/OnClickListener.java
+ com.example.lunchtray.generated.callback.OnClickListener
+ com.example.lunchtray.generated.callback.OnClickListener$Listener
+com/example/lunchtray/BuildConfig.java
+ com.example.lunchtray.BuildConfig
+com/example/lunchtray/databinding/FragmentAccompanimentMenuBindingImpl.java
+ com.example.lunchtray.databinding.FragmentAccompanimentMenuBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/lunchtray/databinding/FragmentCheckoutBindingImpl.java
+ com.example.lunchtray.databinding.FragmentCheckoutBindingImpl
+com/example/lunchtray/DataBinderMapperImpl.java
+ com.example.lunchtray.DataBinderMapperImpl
+ com.example.lunchtray.DataBinderMapperImpl$InnerBrLookup
+ com.example.lunchtray.DataBinderMapperImpl$InnerLayoutIdLookup
