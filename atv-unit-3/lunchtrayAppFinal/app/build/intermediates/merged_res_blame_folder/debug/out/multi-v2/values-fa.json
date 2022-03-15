@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\gusta\\Desktop\\android-learning\\atv-unit-3\\lunchtrayApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
+            "outputFile": "C:\\Users\\gusta\\Desktop\\android-learning\\atv-unit-3\\lunchtrayAppFinal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\gusta\\.gradle\\caches\\transforms-2\\files-2.1\\720229daa42039c343806cee0ef1e4d5\\navigation-ui-2.3.5\\res\\values-fa\\values-fa.xml",

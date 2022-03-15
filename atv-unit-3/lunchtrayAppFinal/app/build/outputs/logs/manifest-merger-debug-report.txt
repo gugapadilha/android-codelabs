@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
+ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\3aaeb4627bd04e46f7ccb5564cf6705d\databinding-adapters-4.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\dda78ec9d442dbbf3cf9b769e9369363\databinding-runtime-4.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\c06aa55ac53660a4794310825be611db\viewbinding-4.1.1\AndroidManifest.xml:17:1-22:12
@@ -67,25 +67,25 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\gusta\.gradle\
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\1e3a150fa1b4828589b057482ae5ad0e\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\12a52e0367cda39d278f530c2b6b3509\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\d18e688f3fda4c9677f91a974d5c909b\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
 	package
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:18:5-36
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:18:5-36
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:1-38:12
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:1-38:12
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:17:11-69
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:17:11-69
 application
-ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:20:5-36:19
+ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:20:5-36:19
 MERGED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:27:5-38:19
 MERGED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:27:5-38:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\66b3cf2c71b9b06aadfab8f66f620c09\material-1.3.0\AndroidManifest.xml:22:5-20
@@ -101,37 +101,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gu
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\e70b5550e792cc5a5f49f4beae756a82\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:25:9-35
 	android:label
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:23:9-41
 	android:roundIcon
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:24:9-54
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:24:9-54
 	android:icon
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:22:9-43
 	android:allowBackup
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:26:9-47
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:26:9-47
 activity#com.example.lunchtray.MainActivity
-ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:label
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:29:13-45
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:29:13-45
 	android:name
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:28:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\3aaeb4627bd04e46f7ccb5564cf6705d\databinding-adapters-4.1.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\3aaeb4627bd04e46f7ccb5564cf6705d\databinding-adapters-4.1.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\dda78ec9d442dbbf3cf9b769e9369363\databinding-runtime-4.1.1\AndroidManifest.xml:22:5-44
@@ -258,18 +258,18 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\gusta\.gradle\caches\trans
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\12a52e0367cda39d278f530c2b6b3509\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\d18e688f3fda4c9677f91a974d5c909b\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\d18e688f3fda4c9677f91a974d5c909b\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gusta\Desktop\android-learning\atv-unit-3\lunchtrayAppFinal\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.REORDER_TASKS
 ADDED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
 MERGED from [androidx.test:core:1.3.0] C:\Users\gusta\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:24:5-72

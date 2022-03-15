@@ -18,8 +18,8 @@ com/example/lunchtray/databinding/FragmentEntreeMenuBindingImpl.java
  com.example.lunchtray.databinding.FragmentEntreeMenuBindingImpl
 com/example/lunchtray/databinding/FragmentCheckoutBinding.java
  com.example.lunchtray.databinding.FragmentCheckoutBinding
-com/example/lunchtray/BR.java
- com.example.lunchtray.BR
+com/example/lunchtray/databinding/FragmentCheckoutBindingImpl.java
+ com.example.lunchtray.databinding.FragmentCheckoutBindingImpl
 com/example/lunchtray/databinding/ActivityMainBinding.java
  com.example.lunchtray.databinding.ActivityMainBinding
 com/example/lunchtray/generated/callback/OnClickListener.java
@@ -31,9 +31,9 @@ com/example/lunchtray/databinding/FragmentAccompanimentMenuBindingImpl.java
  com.example.lunchtray.databinding.FragmentAccompanimentMenuBindingImpl
 androidx/databinding/DataBindingComponent.java
  androidx.databinding.DataBindingComponent
-com/example/lunchtray/databinding/FragmentCheckoutBindingImpl.java
- com.example.lunchtray.databinding.FragmentCheckoutBindingImpl
 com/example/lunchtray/DataBinderMapperImpl.java
  com.example.lunchtray.DataBinderMapperImpl
  com.example.lunchtray.DataBinderMapperImpl$InnerBrLookup
  com.example.lunchtray.DataBinderMapperImpl$InnerLayoutIdLookup
+com/example/lunchtray/BR.java
+ com.example.lunchtray.BR

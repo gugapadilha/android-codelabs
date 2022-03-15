@@ -1,7 +1,7 @@
-#Sat Mar 12 13:13:08 BRT 2022
-base.1=C\:\\Users\\gusta\\Desktop\\android-learning\\atv-unit-3\\lunchtrayApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+#Sat Mar 12 13:37:16 BRT 2022
+base.1=C\:\\Users\\gusta\\Desktop\\android-learning\\atv-unit-3\\lunchtrayAppFinal\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.1=classes.dex
-base.0=C\:\\Users\\gusta\\Desktop\\android-learning\\atv-unit-3\\lunchtrayApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\gusta\\Desktop\\android-learning\\atv-unit-3\\lunchtrayAppFinal\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex
