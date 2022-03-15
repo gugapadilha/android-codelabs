@@ -3,6 +3,9 @@ package com.example.android.marsphotos.overview
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.android.marsphotos.network.MarsApi
+import kotlinx.coroutines.launch
 
 /*** The [ViewModel] that is attached to the [OverviewFragment].*/
 class OverviewViewModel : ViewModel() {
@@ -22,6 +25,10 @@ class OverviewViewModel : ViewModel() {
      * Gets Mars photos information from the Mars API Retrofit service and updates the*
      * [MarsPhoto] [List] [LiveData].*/
     private fun getMarsPhotos() {
-        _status.value = "Set the Mars API status response here!"
+        viewModelScope.launch {
+            val listResult = MarsApi.retrofitService.getPhotos()
+            _status.value = listResult
+
+        }
     }
 }
