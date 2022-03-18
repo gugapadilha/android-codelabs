@@ -49,6 +49,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    sourceSets {
+        test.resources.srcDirs += 'src/test/res'
+    }
 }
 
 dependencies {
@@ -71,4 +75,10 @@ dependencies {
 
     // Coil
     implementation "io.coil-kt:coil:1.1.1"
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation "androidx.arch.core:core-testing:2.1.0"
+    testImplementation "com.squareup.okhttp3:mockwebserver:4.9.1"
+
+    testImplementation "com.squareup.okhttp3:mockwebserver:4.9.1"
 }
