@@ -15,7 +15,9 @@
  */
 package com.example.forage.data
 
+import android.content.ClipData
 import android.content.Context
+import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.forage.model.Forageable
@@ -25,7 +27,7 @@ import com.example.forage.model.Forageable
  * This database stores a [Forageable] entity
  */
 // TODO: create the database with all necessary annotations, methods, variables, etc.
-
+@Database(entities = [Forageable::class], version = 1, exportSchema = false)
 abstract class ForageDatabase : RoomDatabase(){
 
     abstract fun forageableDao() : ForageableDao
@@ -35,23 +37,16 @@ abstract class ForageDatabase : RoomDatabase(){
         private var INSTANCE: ForageDatabase? = null
 
         fun getDatabase(context: Context): ForageDatabase {
-            // if the INSTANCE is not null, then return it,
-            // if it is, then create the database
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
-                    context.applicationContext,
+                    context,
                     ForageDatabase::class.java,
-                    "forageable_database"
-                )
-                    // Wipes and rebuilds instead of migrating if no Migration object.
-                    // Migration is not part of this codelab.
-                    .fallbackToDestructiveMigration()
+                    "forageable")
                     .build()
                 INSTANCE = instance
-                // return instance
+
                 instance
             }
         }
     }
 }
-

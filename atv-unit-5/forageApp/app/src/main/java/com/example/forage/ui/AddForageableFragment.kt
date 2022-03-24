@@ -1,18 +1,3 @@
-/*
- * Copyright (C) 2021 The Android Open Source Project.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.example.forage.ui
 
 import android.os.Bundle
@@ -51,11 +36,14 @@ class AddForageableFragment : Fragment() {
     // TODO: Refactor the creation of the view model to take an instance of
     //  ForageableViewModelFactory. The factory should take an instance of the Database retrieved
     //  from BaseApplication
+    // private val viewModel: ForageableViewModel by activityViewModels()
+
     private val viewModel: ForageableViewModel by activityViewModels {
         ForageableViewModelFactory(
             (activity?.application as BaseApplication).database.forageableDao()
         )
     }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -74,10 +62,10 @@ class AddForageableFragment : Fragment() {
 
             // TODO: Observe a Forageable that is retrieved by id, set the forageable variable,
             //  and call the bindForageable method
-            viewModel.getForageables.observe(this.viewLifecycleOwner) { items ->
-                items.let {
-                    bindForageable(forageable)
-                }
+
+            viewModel.getForageable(navigationArgs.id).observe(this.viewLifecycleOwner) {
+                forageable = it
+                bindForageable(it)
             }
 
             binding.deleteBtn.visibility = View.VISIBLE
@@ -128,7 +116,7 @@ class AddForageableFragment : Fragment() {
     }
 
     private fun bindForageable(forageable: Forageable) {
-        binding.apply{
+        binding.apply {
             nameInput.setText(forageable.name, TextView.BufferType.SPANNABLE)
             locationAddressInput.setText(forageable.address, TextView.BufferType.SPANNABLE)
             inSeasonCheckbox.isChecked = forageable.inSeason
