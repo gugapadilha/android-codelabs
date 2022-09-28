@@ -14,13 +14,17 @@
         android:theme="@style/Theme.NavigationElements"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".NavigationDrawerExampleActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToolbarExampleActivity"
+            android:exported="true">
         </activity>
     </application>
 

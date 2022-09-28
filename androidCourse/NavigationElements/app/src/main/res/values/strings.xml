@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">NavigationElements</string>
+    <string name="text_inicio">Inicio</string>
+    <string name="text_perfil">Perfil</string>
+    <string name="text_notifications">Notificações</string>
 </resources>

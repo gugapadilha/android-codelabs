@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.guga.navigationelements.fragments.HomeFragment"
+        tools:layout="@layout/home_fragment"
+        android:label="@string/text_inicio" >
+        <action
+            android:id="@+id/action_homeFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.guga.navigationelements.fragments.ProfileFragment"
+        tools:layout="@layout/profile_fragment"
+        android:label="@string/text_perfil" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.guga.navigationelements.fragments.NotificationsFragment"
+        tools:layout="@layout/notifications_fragment"
+        android:label="@string/text_notifications" />
+</navigation>
