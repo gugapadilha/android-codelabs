@@ -20,6 +20,7 @@ class NavigationDrawerExampleActivity : AppCompatActivity() {
 
         val navHostFragment = (supportFragmentManager.findFragmentById(_binding.fragmentContainerView.id)) as NavHostFragment
         val navController = navHostFragment.navController
+        _binding.navView.setupWithNavController(navController)
 
         val appBarConfiguration = AppBarConfiguration(navController.graph)
         // setta o botao de voltar automaticamente, e muda o nome conforme o fragment
