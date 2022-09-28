@@ -22,7 +22,7 @@ class NavigationDrawerExampleActivity : AppCompatActivity() {
         val navController = navHostFragment.navController
         _binding.navView.setupWithNavController(navController)
 
-        val appBarConfiguration = AppBarConfiguration(navController.graph)
+        val appBarConfiguration = AppBarConfiguration(navController.graph, _binding.drawerLayout)
         // setta o botao de voltar automaticamente, e muda o nome conforme o fragment
         _binding.toolbar.setupWithNavController(navController, appBarConfiguration)
     }

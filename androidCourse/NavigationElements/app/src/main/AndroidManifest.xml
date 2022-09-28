@@ -14,7 +14,7 @@
         android:theme="@style/Theme.NavigationElements"
         tools:targetApi="31">
         <activity
-            android:name=".NavigationDrawerExampleActivity"
+            android:name=".BottomNavigationViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,9 +23,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ToolbarExampleActivity"
+            android:name=".NavigationDrawerExampleActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".ToolbarExampleActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
